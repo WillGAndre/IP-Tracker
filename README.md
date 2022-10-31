@@ -1,4 +1,4 @@
-<h2 align="center"><u>IP-Tracker</u></h2>
+<h2 align="center"><u>IP-Tracker - Deobfuscated</u></h2>
 
 ![IP-Tracker](https://github.com/KasRoudra/IP-Tracker/raw/main/files/banner.png)
 <h4 align="center"> Track IP with tricky link! </h4>
