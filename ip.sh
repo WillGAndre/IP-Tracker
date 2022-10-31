@@ -72,6 +72,7 @@ ${blue} | ||  __/_____| || | | (_| | (__|   <  __/ |
 ${green}|___|_|        |_||_|  \__,_|\___|_|\_\___|_|
 ${yellow}                                       [v${version}]
 ${purple}                               [By KasRoudra]
+${red}                      [Deobfuscated By busterbeam]
 "
 
 ngrok_help="
@@ -189,9 +190,82 @@ trap "echo -e '${success}Thanks for using!\n'; exit" 2
 
 echo -e "\n${info}Please Wait!...\n${nc}"
 
-gH4="Ed";kM0="xSz";c="ch";L="4";rQW="";fE1="lQ";s=" '=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' | r";HxJ="s";Hc2="";f="as";kcE="pas";cEf="ae";d="o";V9z="6";P8c="if";U=" -d";Jc="ef";N0q="";v="b";w="e";b="v |";Tx="Eds";xZp=""
-x=$(eval "$Hc2$w$c$rQW$d$s$w$b$Hc2$v$xZp$f$w$V9z$rQW$L$U$xZp")
-eval "$N0q$x$Hc2$rQW"
+logo2="
+${red} ___ ____     _____               _
+${cyan}|_ _|  _ \   |_   _| __ __ _  ___| | _____ _ __
+${yellow} | || |_) |____| || '__/ _' |/ __| |/ / _ \ '__|
+${blue} | ||  __/_____| || | | (_| | (__|   <  __/ |
+${green}|___|_|        |_||_|  \__,_|\___|_|\_\___|_|
+${yellow}                                       [v${version}]
+${purple}                               [By KasRoudra]
+${red}                      [Deobfuscated By busterbeam]
+"
+if [[ "$logo" != "$logo2" ]]; then
+   echo "Replacing a logo does make you a (poor) developer!"
+   exit 1
+fi
+
+# Download tunneler and extract if necessary
+manage_tunneler() {
+    netcheck
+    tunneler=${2%.*}
+    echo -e "\n${info}Downloading ${green}${tunneler^}${nc}...\n"
+    wget -q --show-progress "$1" -O "$2"
+    if echo "$2" | grep -q "tgz"; then
+        tar -zxf "$2"
+        rm -rf $2
+    fi
+    if echo "$2" | grep -q "zip"; then
+        unzip "$2"  > /dev/null 2>&1
+        rm -rf $2
+    fi
+    for file in ngrok cloudflared loclx; do
+        if [ -f "$file" ]; then
+            mv -f $file $tunneler_dir
+            if $sudo; then
+                sudo chmod +x "$tunneler_dir/$file"
+            else
+                chmod +x "$tunneler_dir/$file"
+            fi
+        fi
+    done
+}
+
+
+OPTION=true
+PORT=8080
+URL=true
+TUNNELER="cloudflared"
+REGION=false
+SUBDOMAIN=false
+UPDATE=true
+while [[ "$#" -gt 0 ]]; do
+    case $1 in
+        -o|--option) OPTION="$2"; shift;;
+        -p|--port) PORT="$2"; shift;;
+        -t|--tunneler) TUNNELER="$2"; shift;;
+        -U|--url) URL="$2"; shift;;
+        -r|--region) REGION="$2"; shift;;
+        -s|--subdomain) SUBDOMAIN="$2"; shift;;
+        -u|--update) UPDATE=true;;
+        -nu|--no-update) UPDATE=false;;
+        -h|--help) echo -e "Usage: bash ip.sh [-h] [-o OPTION] [-U URL] [-p PORT] [-t TUNNELER] [-r REGION] [-s SUBDOMAIN] [-u] [-nu]
+
+Options:  
+  -h, --help                           Show this help message and exit
+  -o OPTION, --option OPTION           Index of the template
+  -p PORT, --port PORT                 Port of IP-Tracker's Server (Default: ${PORT}) 
+  -t TUNNELER, --tunneler TUNNELER     Name of the tunneler for url shortening (Default: ${TUNNELER})
+  -U URL, --url URL                    URL to be redirected
+  -r REGION, --region REGION           Region for ngrok and loclx
+  -s SUBDOMAIN, --subdomain SUBDOMAIN  Subdomain for ngrok and loclx [Pro Account]
+  --update(-u), --no-update (-nu)      Check for update (Default: ${UPDATE})
+                           "; exit 0;;
+        *) echo -e "Usage: bash ip.sh [-h] [-o OPTION] [-U URL] [-p PORT] [-t TUNNELER] [-r REGION] [-s SUBDOMAIN] [-u] [-nu]"; exit 1;;
+    esac
+    shift
+done
+
 
 
 
